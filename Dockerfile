@@ -4,5 +4,5 @@ ENV HOME /app
 WORKDIR $HOME
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-COPY . .
+COPY lesson23_project_source .
 CMD ["sh", "entrypoint.sh"]
