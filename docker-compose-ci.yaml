@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   app:
-    image: igorek86/skypro:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    image: ilgar-projects/lesson23_project_source:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     ports:
       - 8080:25000
     environment:
